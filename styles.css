@@ -54,20 +54,20 @@ header{
   padding: 20px 100px;
   transition: 0.5s;
 }
-.profile {
+.Profile {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
   cursor: pointer;
 }
-.profile img{
+.Profile img{
  width: 40px;
  height: 40px;
  object-fit: cover;
  object-position: center;
  border-radius: 50%;
 }
-.profile span {
+.Profile span {
   font-size: 13px;
   font-weight: 500;
 }
