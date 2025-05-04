@@ -50,7 +50,7 @@ header{
   align-items: center;
   justify-content: space-between;
   background: var(--bg-color);
-  box-shadow: 0 8px 11px rgb(14 55 54 / 15%); 
+  box-shadow: 0 8px 11px rgb(14 55 54/ 15%); 
   padding: 20px 100px;
   transition: 0.5s;
 }
@@ -113,10 +113,11 @@ color: var(--cookie-color);
   min-height: 640px;
   display: flex;
   align-items: center;
-  background: url(Images/matcha.jpg);
+  background: url(Images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 .container img{
   width: 400px;
